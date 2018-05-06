@@ -1,4 +1,5 @@
 - hosts: wordpress
+  gather_facts: False
   roles:
     - server
     - php

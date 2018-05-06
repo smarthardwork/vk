@@ -1,4 +1,4 @@
-- hosts: wordpress
+- hosts: localhsot
   gather_facts: False
   roles:
     - server

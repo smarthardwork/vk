@@ -2,7 +2,7 @@
 # tasks file for server
  - name: Update apt cache
    apt: update_cache=yes cache_valid_time=3600
-   #sudo: yes
+   sudo: yes
 
  - name: Install required software
    apt: name={{ item }} state=present
